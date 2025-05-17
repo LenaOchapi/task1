@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Руководство программиста
 
-## Getting Started
+## Назначение проекта
+Этот проект — это небольшой сайт с историей колледжа колледжа, реализованная на Next.js и TailwindCSS.  
+Он позволяет пользователям регистрироваться, авторизовываться, просматривать каталог товаров, и видеть историю колледжа.
 
-First, run the development server:
+## Установка и запуск
+1. Клонируйте репозиторий:
+   ```bash
+   git clone <URL_репозитория>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Перейдите в папку проекта:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    bash
+    Копировать
+    Редактировать
+    cd <название_папки>
+3. Установите зависимости:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    bash
+    Копировать
+    Редактировать
+    npm install
+4. Запустите проект локально:
+    bash
+    Копировать
+    Редактировать
+    npm run dev
+5. Откройте браузер и перейдите на http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Описание компонентов
+Header — шапка сайта с навигацией и кнопкой выхода.
 
-## Learn More
+Footer — подвал сайта с информацией об авторских правах.
 
-To learn more about Next.js, take a look at the following resources:
+LoginPage — страница авторизации с формой логина и пароля.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+HomePage — главная страница с историей колледжа и галереей изображений.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+CustomInput — переиспользуемый компонент для полей ввода.
 
-## Deploy on Vercel
+CustomButton — переиспользуемая кнопка с анимацией наведения.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
